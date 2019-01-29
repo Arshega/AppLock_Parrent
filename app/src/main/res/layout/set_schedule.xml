@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:layout_below="@+id/btnLockNow"
+        android:id="@+id/btnSetTime"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/new_button_shape"
+        android:text="Set Time Limit"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/btnSetSchedule"
+        android:layout_below="@+id/btnLockNow"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/new_button_shape"
+        android:text="Set Schedule"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/btnLockNow"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/new_button_shape"
+        android:text="Lock Device Now"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</RelativeLayout>

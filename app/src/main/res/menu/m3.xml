@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/otheracc"
+        android:icon="@drawable/other_account"
+        android:title="Connected Accounts"
+        />
+    <item
+        android:id="@+id/viewrun"
+        android:icon="@drawable/other_account"
+        android:title="View Running"
+        />
+    <item
+        android:id="@+id/unpair"
+        android:icon="@drawable/unpair_device"
+        android:title="Unpair"
+        />
+
+</menu>
